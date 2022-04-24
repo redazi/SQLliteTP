@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_machine"
+            android:icon="@drawable/machine"
+            android:title="@string/menu_machine" />
+        <item
+            android:id="@+id/nav_salles"
+            android:icon="@drawable/img"
+            android:title="@string/menu_salles" />
+        <item
+            android:id="@+id/nav_machine_salle"
+            android:icon="@drawable/img"
+            android:title="@string/menu_machine_salles" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/graphiques"
+            android:title="@string/menu_graph_machine_salle" />
+    </group>
+</menu>
